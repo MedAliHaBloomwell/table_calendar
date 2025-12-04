@@ -272,9 +272,7 @@ class _TableCalendarBaseState extends State<TableCalendarBase> {
         return _getTwoWeekCount(startDay, focusedDay);
       case CalendarFormat.week:
         return _getWeekCount(startDay, focusedDay);
-      default:
-        return _getMonthCount(startDay, focusedDay);
-    }
+      }
   }
 
   int _getMonthCount(DateTime first, DateTime last) {
